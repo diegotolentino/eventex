@@ -11,3 +11,6 @@ Scripts
 *~
 *.db
 .DS_Store
+.project
+.pydevproject
+.settings/

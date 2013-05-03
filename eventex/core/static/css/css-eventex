@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>CSS do Eventex</title>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="CU5B2p7uniwf17qmNov7EUUdPFxn3rK36S//1yZ1pFg=" name="csrf-token" />
+  <meta name="viewport" content="width=960">
+
+  <link type="text/plain" rel="author" href="http://github.com/humans.txt" />
+
+  <link href="https://gist.github.com/assets/application-314cf65da2b1719a56095da6d83ca292.css" media="screen, print" rel="stylesheet" />
+  <script src="https://gist.github.com/assets/application-7011728f6ccd2eb862bfd327655fbef5.js"></script>
+
+    <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@github">
+  <meta property="og:title" content="henriquebastos/style.css">
+  <meta property="og:type" content="githubog:gist">
+  <meta property="og:url" content="https://gist.github.com/henriquebastos/3766690">
+  <meta property="og:image" content="https://secure.gravatar.com/avatar/d47e5a6a94e793ad1a1c315d6ab63877?s=140&amp;d=https://github.com/images/gravatars/gravatar-140.png">
+  <meta property="og:site_name" content="GitHub Gists">
+  <meta property="og:description" content="CSS do Eventex - Gist is a simple way to share snippets of text and code with others.">
+  <meta name="description" content="CSS do Eventex - Gist is a simple way to share snippets of text and code with others.">
+
+</head>
+
+<body class="">
+
+  <div id="wrapper">
+    
+
+    <div id="header" class="header header-logged-out">
+      <div class="container" class="clearfix">
+        <a class="header-logo-wordmark" href="https://gist.github.com/">GitHub Gist</a>
+
+        <div class="header-actions">
+          <a class="button primary" href="https://github.com/signup?return_to=gist">Sign up for a GitHub Account</a>
+          <a class="button" href="/login?return_to=/henriquebastos/3766690" data-skip-pjax>Sign in</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-content" id="js-pjax-container" data-pjax-container>
+      <div class=" site-container js-site-container" data-url="/henriquebastos/3766690">
+  
+  <div class="pagehead repohead">
+  <div class="container">
+    <div class="title-actions-bar">
+      <ul class="pagehead-actions">
+        
+        <li>
+      </ul>
+      <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+        <span class="repo-label"><span>public</span></span>
+        <span class="mega-icon mega-icon-gist" ></span>
+        <div class="meta">
+          <div class="gist-author">
+            <img src="https://secure.gravatar.com/avatar/d47e5a6a94e793ad1a1c315d6ab63877?s=140&amp;d=https://github.com/images/gravatars/gravatar-140.png" width="26" height="26">
+            <span class="author vcard">
+                <span itemprop="title"><a href="/henriquebastos">henriquebastos</a></span>
+            </span> /
+            <strong><a href="/henriquebastos/3766690" class="js-current-repository">style.css</a></strong>
+          </div>
+          <div class="gist-timestamp">
+              <span class="datetime">Created <time class="js-relative-date" title="2012-09-22T16:36:53Z" datetime="2012-09-22T16:36:53Z">2012-09-22</time></span>
+          </div>
+      </h1>
+    </div>
+
+  </div>
+</div>
+
+
+
+<div class="gist-description container">
+  <p>CSS do Eventex</p>
+</div>
+
+<div class="gist container">
+    <div class="root-pane">
+  <div class="menu-container">
+    <ul class="menu gisttabs">
+      <li>
+        <a href="/henriquebastos/3766690" class="selected">
+          Gist Detail
+        </a>
+      </li>
+
+        <li>
+          <a href="/henriquebastos/3766690/revisions" >
+            Revisions
+            <span class="counter">1</span>
+          </a>
+        </li>
+
+
+    </ul>
+  </div>
+
+  <ul class="export-references">
+    <li>
+      <a href="/henriquebastos/3766690/download" class="minibutton" rel="nofollow"><span class="mini-icon mini-icon-download"></span>Download Gist</a>
+    </li>
+    <li>
+      <label for="url-field"><strong>Clone</strong> this gist</label>
+      <input type="text" readonly spellcheck="false" class="url-field js-url-field js-cptoggle" name="url-field" value="https://gist.github.com/3766690.git" data-cptoggle-display="/henriquebastos/3766690">
+    </li>
+    <li>
+      <label for="embed-field"><strong>Embed</strong> this gist</label>
+      <input type="text" readonly spellcheck="false" class="url-field js-url-field" name="embed-field" value="&lt;script src=&quot;https://gist.github.com/henriquebastos/3766690.js&quot;&gt;&lt;/script&gt;">
+    </li>
+    <li>
+      <label for="link-field"><strong>Link to</strong> this gist</label>
+      <input type="text" readonly spellcheck="false" class="url-field js-url-field" name="link-field" value="https://gist.github.com/henriquebastos/3766690">
+    </li>
+  </ul>
+</div>
+
+
+  <div class="column files">
+        <div id="file-style-css" class="bubble">
+          <div class="file-box ">
+            <div class="meta">
+              <div class="file-info">
+                <span class="file-type-icon"><span class="mini-icon mini-icon-gist"></span></span>
+                <strong class="file-name js-selectable-text">style.css</strong>
+              </div>
+              <div class="file-actions">
+                <span class="file-language">CSS</span>
+                <ul class="button-group">
+                  <li><a title="Permalink" href="#file-style-css" class="file-actions-button tooltipped downwards permalink"><span class="mini-icon mini-icon-link"></span></a></li>
+                  <li><a title="View Raw" href="/henriquebastos/3766690/raw/2be05a806629edfe62461eb9d4fee208662f2502/style.css" data-skip-pjax class="file-actions-button tooltipped downwards raw-url"><span class="mini-icon mini-icon-code"></span></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="suppressed">
+              <a class="js-show-suppressed-file">File suppressed. Click to show.</a>
+            </div>
+            
+
+
+  <div class="file-data">
+    <table cellpadding="0" cellspacing="0" class="lines highlight">
+      <tr>
+        <td class="line-numbers">
+          <span class="line-number" id="file-style-css-L1" rel="file-style-css-L1">1</span>
+          <span class="line-number" id="file-style-css-L2" rel="file-style-css-L2">2</span>
+          <span class="line-number" id="file-style-css-L3" rel="file-style-css-L3">3</span>
+          <span class="line-number" id="file-style-css-L4" rel="file-style-css-L4">4</span>
+          <span class="line-number" id="file-style-css-L5" rel="file-style-css-L5">5</span>
+          <span class="line-number" id="file-style-css-L6" rel="file-style-css-L6">6</span>
+          <span class="line-number" id="file-style-css-L7" rel="file-style-css-L7">7</span>
+          <span class="line-number" id="file-style-css-L8" rel="file-style-css-L8">8</span>
+          <span class="line-number" id="file-style-css-L9" rel="file-style-css-L9">9</span>
+          <span class="line-number" id="file-style-css-L10" rel="file-style-css-L10">10</span>
+          <span class="line-number" id="file-style-css-L11" rel="file-style-css-L11">11</span>
+          <span class="line-number" id="file-style-css-L12" rel="file-style-css-L12">12</span>
+          <span class="line-number" id="file-style-css-L13" rel="file-style-css-L13">13</span>
+          <span class="line-number" id="file-style-css-L14" rel="file-style-css-L14">14</span>
+          <span class="line-number" id="file-style-css-L15" rel="file-style-css-L15">15</span>
+          <span class="line-number" id="file-style-css-L16" rel="file-style-css-L16">16</span>
+          <span class="line-number" id="file-style-css-L17" rel="file-style-css-L17">17</span>
+          <span class="line-number" id="file-style-css-L18" rel="file-style-css-L18">18</span>
+          <span class="line-number" id="file-style-css-L19" rel="file-style-css-L19">19</span>
+          <span class="line-number" id="file-style-css-L20" rel="file-style-css-L20">20</span>
+          <span class="line-number" id="file-style-css-L21" rel="file-style-css-L21">21</span>
+          <span class="line-number" id="file-style-css-L22" rel="file-style-css-L22">22</span>
+          <span class="line-number" id="file-style-css-L23" rel="file-style-css-L23">23</span>
+          <span class="line-number" id="file-style-css-L24" rel="file-style-css-L24">24</span>
+          <span class="line-number" id="file-style-css-L25" rel="file-style-css-L25">25</span>
+          <span class="line-number" id="file-style-css-L26" rel="file-style-css-L26">26</span>
+          <span class="line-number" id="file-style-css-L27" rel="file-style-css-L27">27</span>
+          <span class="line-number" id="file-style-css-L28" rel="file-style-css-L28">28</span>
+          <span class="line-number" id="file-style-css-L29" rel="file-style-css-L29">29</span>
+          <span class="line-number" id="file-style-css-L30" rel="file-style-css-L30">30</span>
+          <span class="line-number" id="file-style-css-L31" rel="file-style-css-L31">31</span>
+          <span class="line-number" id="file-style-css-L32" rel="file-style-css-L32">32</span>
+          <span class="line-number" id="file-style-css-L33" rel="file-style-css-L33">33</span>
+          <span class="line-number" id="file-style-css-L34" rel="file-style-css-L34">34</span>
+          <span class="line-number" id="file-style-css-L35" rel="file-style-css-L35">35</span>
+          <span class="line-number" id="file-style-css-L36" rel="file-style-css-L36">36</span>
+          <span class="line-number" id="file-style-css-L37" rel="file-style-css-L37">37</span>
+          <span class="line-number" id="file-style-css-L38" rel="file-style-css-L38">38</span>
+          <span class="line-number" id="file-style-css-L39" rel="file-style-css-L39">39</span>
+          <span class="line-number" id="file-style-css-L40" rel="file-style-css-L40">40</span>
+          <span class="line-number" id="file-style-css-L41" rel="file-style-css-L41">41</span>
+          <span class="line-number" id="file-style-css-L42" rel="file-style-css-L42">42</span>
+          <span class="line-number" id="file-style-css-L43" rel="file-style-css-L43">43</span>
+          <span class="line-number" id="file-style-css-L44" rel="file-style-css-L44">44</span>
+          <span class="line-number" id="file-style-css-L45" rel="file-style-css-L45">45</span>
+          <span class="line-number" id="file-style-css-L46" rel="file-style-css-L46">46</span>
+          <span class="line-number" id="file-style-css-L47" rel="file-style-css-L47">47</span>
+          <span class="line-number" id="file-style-css-L48" rel="file-style-css-L48">48</span>
+          <span class="line-number" id="file-style-css-L49" rel="file-style-css-L49">49</span>
+          <span class="line-number" id="file-style-css-L50" rel="file-style-css-L50">50</span>
+          <span class="line-number" id="file-style-css-L51" rel="file-style-css-L51">51</span>
+          <span class="line-number" id="file-style-css-L52" rel="file-style-css-L52">52</span>
+          <span class="line-number" id="file-style-css-L53" rel="file-style-css-L53">53</span>
+          <span class="line-number" id="file-style-css-L54" rel="file-style-css-L54">54</span>
+          <span class="line-number" id="file-style-css-L55" rel="file-style-css-L55">55</span>
+          <span class="line-number" id="file-style-css-L56" rel="file-style-css-L56">56</span>
+          <span class="line-number" id="file-style-css-L57" rel="file-style-css-L57">57</span>
+          <span class="line-number" id="file-style-css-L58" rel="file-style-css-L58">58</span>
+          <span class="line-number" id="file-style-css-L59" rel="file-style-css-L59">59</span>
+          <span class="line-number" id="file-style-css-L60" rel="file-style-css-L60">60</span>
+          <span class="line-number" id="file-style-css-L61" rel="file-style-css-L61">61</span>
+          <span class="line-number" id="file-style-css-L62" rel="file-style-css-L62">62</span>
+          <span class="line-number" id="file-style-css-L63" rel="file-style-css-L63">63</span>
+          <span class="line-number" id="file-style-css-L64" rel="file-style-css-L64">64</span>
+          <span class="line-number" id="file-style-css-L65" rel="file-style-css-L65">65</span>
+          <span class="line-number" id="file-style-css-L66" rel="file-style-css-L66">66</span>
+          <span class="line-number" id="file-style-css-L67" rel="file-style-css-L67">67</span>
+          <span class="line-number" id="file-style-css-L68" rel="file-style-css-L68">68</span>
+          <span class="line-number" id="file-style-css-L69" rel="file-style-css-L69">69</span>
+          <span class="line-number" id="file-style-css-L70" rel="file-style-css-L70">70</span>
+          <span class="line-number" id="file-style-css-L71" rel="file-style-css-L71">71</span>
+          <span class="line-number" id="file-style-css-L72" rel="file-style-css-L72">72</span>
+          <span class="line-number" id="file-style-css-L73" rel="file-style-css-L73">73</span>
+          <span class="line-number" id="file-style-css-L74" rel="file-style-css-L74">74</span>
+          <span class="line-number" id="file-style-css-L75" rel="file-style-css-L75">75</span>
+          <span class="line-number" id="file-style-css-L76" rel="file-style-css-L76">76</span>
+          <span class="line-number" id="file-style-css-L77" rel="file-style-css-L77">77</span>
+          <span class="line-number" id="file-style-css-L78" rel="file-style-css-L78">78</span>
+          <span class="line-number" id="file-style-css-L79" rel="file-style-css-L79">79</span>
+          <span class="line-number" id="file-style-css-L80" rel="file-style-css-L80">80</span>
+          <span class="line-number" id="file-style-css-L81" rel="file-style-css-L81">81</span>
+          <span class="line-number" id="file-style-css-L82" rel="file-style-css-L82">82</span>
+          <span class="line-number" id="file-style-css-L83" rel="file-style-css-L83">83</span>
+          <span class="line-number" id="file-style-css-L84" rel="file-style-css-L84">84</span>
+          <span class="line-number" id="file-style-css-L85" rel="file-style-css-L85">85</span>
+          <span class="line-number" id="file-style-css-L86" rel="file-style-css-L86">86</span>
+          <span class="line-number" id="file-style-css-L87" rel="file-style-css-L87">87</span>
+          <span class="line-number" id="file-style-css-L88" rel="file-style-css-L88">88</span>
+          <span class="line-number" id="file-style-css-L89" rel="file-style-css-L89">89</span>
+          <span class="line-number" id="file-style-css-L90" rel="file-style-css-L90">90</span>
+          <span class="line-number" id="file-style-css-L91" rel="file-style-css-L91">91</span>
+          <span class="line-number" id="file-style-css-L92" rel="file-style-css-L92">92</span>
+          <span class="line-number" id="file-style-css-L93" rel="file-style-css-L93">93</span>
+          <span class="line-number" id="file-style-css-L94" rel="file-style-css-L94">94</span>
+          <span class="line-number" id="file-style-css-L95" rel="file-style-css-L95">95</span>
+          <span class="line-number" id="file-style-css-L96" rel="file-style-css-L96">96</span>
+          <span class="line-number" id="file-style-css-L97" rel="file-style-css-L97">97</span>
+          <span class="line-number" id="file-style-css-L98" rel="file-style-css-L98">98</span>
+          <span class="line-number" id="file-style-css-L99" rel="file-style-css-L99">99</span>
+          <span class="line-number" id="file-style-css-L100" rel="file-style-css-L100">100</span>
+          <span class="line-number" id="file-style-css-L101" rel="file-style-css-L101">101</span>
+          <span class="line-number" id="file-style-css-L102" rel="file-style-css-L102">102</span>
+          <span class="line-number" id="file-style-css-L103" rel="file-style-css-L103">103</span>
+          <span class="line-number" id="file-style-css-L104" rel="file-style-css-L104">104</span>
+          <span class="line-number" id="file-style-css-L105" rel="file-style-css-L105">105</span>
+          <span class="line-number" id="file-style-css-L106" rel="file-style-css-L106">106</span>
+          <span class="line-number" id="file-style-css-L107" rel="file-style-css-L107">107</span>
+          <span class="line-number" id="file-style-css-L108" rel="file-style-css-L108">108</span>
+          <span class="line-number" id="file-style-css-L109" rel="file-style-css-L109">109</span>
+          <span class="line-number" id="file-style-css-L110" rel="file-style-css-L110">110</span>
+          <span class="line-number" id="file-style-css-L111" rel="file-style-css-L111">111</span>
+          <span class="line-number" id="file-style-css-L112" rel="file-style-css-L112">112</span>
+          <span class="line-number" id="file-style-css-L113" rel="file-style-css-L113">113</span>
+          <span class="line-number" id="file-style-css-L114" rel="file-style-css-L114">114</span>
+          <span class="line-number" id="file-style-css-L115" rel="file-style-css-L115">115</span>
+          <span class="line-number" id="file-style-css-L116" rel="file-style-css-L116">116</span>
+          <span class="line-number" id="file-style-css-L117" rel="file-style-css-L117">117</span>
+          <span class="line-number" id="file-style-css-L118" rel="file-style-css-L118">118</span>
+          <span class="line-number" id="file-style-css-L119" rel="file-style-css-L119">119</span>
+          <span class="line-number" id="file-style-css-L120" rel="file-style-css-L120">120</span>
+          <span class="line-number" id="file-style-css-L121" rel="file-style-css-L121">121</span>
+          <span class="line-number" id="file-style-css-L122" rel="file-style-css-L122">122</span>
+          <span class="line-number" id="file-style-css-L123" rel="file-style-css-L123">123</span>
+          <span class="line-number" id="file-style-css-L124" rel="file-style-css-L124">124</span>
+          <span class="line-number" id="file-style-css-L125" rel="file-style-css-L125">125</span>
+          <span class="line-number" id="file-style-css-L126" rel="file-style-css-L126">126</span>
+          <span class="line-number" id="file-style-css-L127" rel="file-style-css-L127">127</span>
+          <span class="line-number" id="file-style-css-L128" rel="file-style-css-L128">128</span>
+          <span class="line-number" id="file-style-css-L129" rel="file-style-css-L129">129</span>
+          <span class="line-number" id="file-style-css-L130" rel="file-style-css-L130">130</span>
+          <span class="line-number" id="file-style-css-L131" rel="file-style-css-L131">131</span>
+          <span class="line-number" id="file-style-css-L132" rel="file-style-css-L132">132</span>
+          <span class="line-number" id="file-style-css-L133" rel="file-style-css-L133">133</span>
+          <span class="line-number" id="file-style-css-L134" rel="file-style-css-L134">134</span>
+          <span class="line-number" id="file-style-css-L135" rel="file-style-css-L135">135</span>
+          <span class="line-number" id="file-style-css-L136" rel="file-style-css-L136">136</span>
+          <span class="line-number" id="file-style-css-L137" rel="file-style-css-L137">137</span>
+          <span class="line-number" id="file-style-css-L138" rel="file-style-css-L138">138</span>
+          <span class="line-number" id="file-style-css-L139" rel="file-style-css-L139">139</span>
+          <span class="line-number" id="file-style-css-L140" rel="file-style-css-L140">140</span>
+          <span class="line-number" id="file-style-css-L141" rel="file-style-css-L141">141</span>
+          <span class="line-number" id="file-style-css-L142" rel="file-style-css-L142">142</span>
+          <span class="line-number" id="file-style-css-L143" rel="file-style-css-L143">143</span>
+          <span class="line-number" id="file-style-css-L144" rel="file-style-css-L144">144</span>
+          <span class="line-number" id="file-style-css-L145" rel="file-style-css-L145">145</span>
+          <span class="line-number" id="file-style-css-L146" rel="file-style-css-L146">146</span>
+          <span class="line-number" id="file-style-css-L147" rel="file-style-css-L147">147</span>
+          <span class="line-number" id="file-style-css-L148" rel="file-style-css-L148">148</span>
+          <span class="line-number" id="file-style-css-L149" rel="file-style-css-L149">149</span>
+          <span class="line-number" id="file-style-css-L150" rel="file-style-css-L150">150</span>
+          <span class="line-number" id="file-style-css-L151" rel="file-style-css-L151">151</span>
+          <span class="line-number" id="file-style-css-L152" rel="file-style-css-L152">152</span>
+          <span class="line-number" id="file-style-css-L153" rel="file-style-css-L153">153</span>
+          <span class="line-number" id="file-style-css-L154" rel="file-style-css-L154">154</span>
+          <span class="line-number" id="file-style-css-L155" rel="file-style-css-L155">155</span>
+          <span class="line-number" id="file-style-css-L156" rel="file-style-css-L156">156</span>
+          <span class="line-number" id="file-style-css-L157" rel="file-style-css-L157">157</span>
+          <span class="line-number" id="file-style-css-L158" rel="file-style-css-L158">158</span>
+          <span class="line-number" id="file-style-css-L159" rel="file-style-css-L159">159</span>
+          <span class="line-number" id="file-style-css-L160" rel="file-style-css-L160">160</span>
+          <span class="line-number" id="file-style-css-L161" rel="file-style-css-L161">161</span>
+          <span class="line-number" id="file-style-css-L162" rel="file-style-css-L162">162</span>
+          <span class="line-number" id="file-style-css-L163" rel="file-style-css-L163">163</span>
+          <span class="line-number" id="file-style-css-L164" rel="file-style-css-L164">164</span>
+          <span class="line-number" id="file-style-css-L165" rel="file-style-css-L165">165</span>
+          <span class="line-number" id="file-style-css-L166" rel="file-style-css-L166">166</span>
+          <span class="line-number" id="file-style-css-L167" rel="file-style-css-L167">167</span>
+          <span class="line-number" id="file-style-css-L168" rel="file-style-css-L168">168</span>
+          <span class="line-number" id="file-style-css-L169" rel="file-style-css-L169">169</span>
+          <span class="line-number" id="file-style-css-L170" rel="file-style-css-L170">170</span>
+          <span class="line-number" id="file-style-css-L171" rel="file-style-css-L171">171</span>
+          <span class="line-number" id="file-style-css-L172" rel="file-style-css-L172">172</span>
+          <span class="line-number" id="file-style-css-L173" rel="file-style-css-L173">173</span>
+          <span class="line-number" id="file-style-css-L174" rel="file-style-css-L174">174</span>
+          <span class="line-number" id="file-style-css-L175" rel="file-style-css-L175">175</span>
+          <span class="line-number" id="file-style-css-L176" rel="file-style-css-L176">176</span>
+          <span class="line-number" id="file-style-css-L177" rel="file-style-css-L177">177</span>
+          <span class="line-number" id="file-style-css-L178" rel="file-style-css-L178">178</span>
+          <span class="line-number" id="file-style-css-L179" rel="file-style-css-L179">179</span>
+          <span class="line-number" id="file-style-css-L180" rel="file-style-css-L180">180</span>
+          <span class="line-number" id="file-style-css-L181" rel="file-style-css-L181">181</span>
+          <span class="line-number" id="file-style-css-L182" rel="file-style-css-L182">182</span>
+          <span class="line-number" id="file-style-css-L183" rel="file-style-css-L183">183</span>
+          <span class="line-number" id="file-style-css-L184" rel="file-style-css-L184">184</span>
+          <span class="line-number" id="file-style-css-L185" rel="file-style-css-L185">185</span>
+          <span class="line-number" id="file-style-css-L186" rel="file-style-css-L186">186</span>
+          <span class="line-number" id="file-style-css-L187" rel="file-style-css-L187">187</span>
+          <span class="line-number" id="file-style-css-L188" rel="file-style-css-L188">188</span>
+          <span class="line-number" id="file-style-css-L189" rel="file-style-css-L189">189</span>
+          <span class="line-number" id="file-style-css-L190" rel="file-style-css-L190">190</span>
+          <span class="line-number" id="file-style-css-L191" rel="file-style-css-L191">191</span>
+          <span class="line-number" id="file-style-css-L192" rel="file-style-css-L192">192</span>
+          <span class="line-number" id="file-style-css-L193" rel="file-style-css-L193">193</span>
+          <span class="line-number" id="file-style-css-L194" rel="file-style-css-L194">194</span>
+          <span class="line-number" id="file-style-css-L195" rel="file-style-css-L195">195</span>
+          <span class="line-number" id="file-style-css-L196" rel="file-style-css-L196">196</span>
+          <span class="line-number" id="file-style-css-L197" rel="file-style-css-L197">197</span>
+          <span class="line-number" id="file-style-css-L198" rel="file-style-css-L198">198</span>
+          <span class="line-number" id="file-style-css-L199" rel="file-style-css-L199">199</span>
+          <span class="line-number" id="file-style-css-L200" rel="file-style-css-L200">200</span>
+          <span class="line-number" id="file-style-css-L201" rel="file-style-css-L201">201</span>
+          <span class="line-number" id="file-style-css-L202" rel="file-style-css-L202">202</span>
+          <span class="line-number" id="file-style-css-L203" rel="file-style-css-L203">203</span>
+          <span class="line-number" id="file-style-css-L204" rel="file-style-css-L204">204</span>
+          <span class="line-number" id="file-style-css-L205" rel="file-style-css-L205">205</span>
+          <span class="line-number" id="file-style-css-L206" rel="file-style-css-L206">206</span>
+          <span class="line-number" id="file-style-css-L207" rel="file-style-css-L207">207</span>
+          <span class="line-number" id="file-style-css-L208" rel="file-style-css-L208">208</span>
+          <span class="line-number" id="file-style-css-L209" rel="file-style-css-L209">209</span>
+          <span class="line-number" id="file-style-css-L210" rel="file-style-css-L210">210</span>
+          <span class="line-number" id="file-style-css-L211" rel="file-style-css-L211">211</span>
+          <span class="line-number" id="file-style-css-L212" rel="file-style-css-L212">212</span>
+          <span class="line-number" id="file-style-css-L213" rel="file-style-css-L213">213</span>
+          <span class="line-number" id="file-style-css-L214" rel="file-style-css-L214">214</span>
+          <span class="line-number" id="file-style-css-L215" rel="file-style-css-L215">215</span>
+          <span class="line-number" id="file-style-css-L216" rel="file-style-css-L216">216</span>
+          <span class="line-number" id="file-style-css-L217" rel="file-style-css-L217">217</span>
+          <span class="line-number" id="file-style-css-L218" rel="file-style-css-L218">218</span>
+          <span class="line-number" id="file-style-css-L219" rel="file-style-css-L219">219</span>
+          <span class="line-number" id="file-style-css-L220" rel="file-style-css-L220">220</span>
+          <span class="line-number" id="file-style-css-L221" rel="file-style-css-L221">221</span>
+          <span class="line-number" id="file-style-css-L222" rel="file-style-css-L222">222</span>
+          <span class="line-number" id="file-style-css-L223" rel="file-style-css-L223">223</span>
+          <span class="line-number" id="file-style-css-L224" rel="file-style-css-L224">224</span>
+          <span class="line-number" id="file-style-css-L225" rel="file-style-css-L225">225</span>
+          <span class="line-number" id="file-style-css-L226" rel="file-style-css-L226">226</span>
+          <span class="line-number" id="file-style-css-L227" rel="file-style-css-L227">227</span>
+          <span class="line-number" id="file-style-css-L228" rel="file-style-css-L228">228</span>
+          <span class="line-number" id="file-style-css-L229" rel="file-style-css-L229">229</span>
+          <span class="line-number" id="file-style-css-L230" rel="file-style-css-L230">230</span>
+          <span class="line-number" id="file-style-css-L231" rel="file-style-css-L231">231</span>
+          <span class="line-number" id="file-style-css-L232" rel="file-style-css-L232">232</span>
+          <span class="line-number" id="file-style-css-L233" rel="file-style-css-L233">233</span>
+          <span class="line-number" id="file-style-css-L234" rel="file-style-css-L234">234</span>
+          <span class="line-number" id="file-style-css-L235" rel="file-style-css-L235">235</span>
+          <span class="line-number" id="file-style-css-L236" rel="file-style-css-L236">236</span>
+          <span class="line-number" id="file-style-css-L237" rel="file-style-css-L237">237</span>
+          <span class="line-number" id="file-style-css-L238" rel="file-style-css-L238">238</span>
+          <span class="line-number" id="file-style-css-L239" rel="file-style-css-L239">239</span>
+          <span class="line-number" id="file-style-css-L240" rel="file-style-css-L240">240</span>
+          <span class="line-number" id="file-style-css-L241" rel="file-style-css-L241">241</span>
+          <span class="line-number" id="file-style-css-L242" rel="file-style-css-L242">242</span>
+          <span class="line-number" id="file-style-css-L243" rel="file-style-css-L243">243</span>
+          <span class="line-number" id="file-style-css-L244" rel="file-style-css-L244">244</span>
+          <span class="line-number" id="file-style-css-L245" rel="file-style-css-L245">245</span>
+          <span class="line-number" id="file-style-css-L246" rel="file-style-css-L246">246</span>
+          <span class="line-number" id="file-style-css-L247" rel="file-style-css-L247">247</span>
+          <span class="line-number" id="file-style-css-L248" rel="file-style-css-L248">248</span>
+          <span class="line-number" id="file-style-css-L249" rel="file-style-css-L249">249</span>
+          <span class="line-number" id="file-style-css-L250" rel="file-style-css-L250">250</span>
+          <span class="line-number" id="file-style-css-L251" rel="file-style-css-L251">251</span>
+          <span class="line-number" id="file-style-css-L252" rel="file-style-css-L252">252</span>
+          <span class="line-number" id="file-style-css-L253" rel="file-style-css-L253">253</span>
+          <span class="line-number" id="file-style-css-L254" rel="file-style-css-L254">254</span>
+          <span class="line-number" id="file-style-css-L255" rel="file-style-css-L255">255</span>
+          <span class="line-number" id="file-style-css-L256" rel="file-style-css-L256">256</span>
+          <span class="line-number" id="file-style-css-L257" rel="file-style-css-L257">257</span>
+          <span class="line-number" id="file-style-css-L258" rel="file-style-css-L258">258</span>
+          <span class="line-number" id="file-style-css-L259" rel="file-style-css-L259">259</span>
+          <span class="line-number" id="file-style-css-L260" rel="file-style-css-L260">260</span>
+          <span class="line-number" id="file-style-css-L261" rel="file-style-css-L261">261</span>
+          <span class="line-number" id="file-style-css-L262" rel="file-style-css-L262">262</span>
+          <span class="line-number" id="file-style-css-L263" rel="file-style-css-L263">263</span>
+          <span class="line-number" id="file-style-css-L264" rel="file-style-css-L264">264</span>
+          <span class="line-number" id="file-style-css-L265" rel="file-style-css-L265">265</span>
+          <span class="line-number" id="file-style-css-L266" rel="file-style-css-L266">266</span>
+          <span class="line-number" id="file-style-css-L267" rel="file-style-css-L267">267</span>
+          <span class="line-number" id="file-style-css-L268" rel="file-style-css-L268">268</span>
+          <span class="line-number" id="file-style-css-L269" rel="file-style-css-L269">269</span>
+          <span class="line-number" id="file-style-css-L270" rel="file-style-css-L270">270</span>
+          <span class="line-number" id="file-style-css-L271" rel="file-style-css-L271">271</span>
+          <span class="line-number" id="file-style-css-L272" rel="file-style-css-L272">272</span>
+          <span class="line-number" id="file-style-css-L273" rel="file-style-css-L273">273</span>
+          <span class="line-number" id="file-style-css-L274" rel="file-style-css-L274">274</span>
+          <span class="line-number" id="file-style-css-L275" rel="file-style-css-L275">275</span>
+          <span class="line-number" id="file-style-css-L276" rel="file-style-css-L276">276</span>
+          <span class="line-number" id="file-style-css-L277" rel="file-style-css-L277">277</span>
+          <span class="line-number" id="file-style-css-L278" rel="file-style-css-L278">278</span>
+          <span class="line-number" id="file-style-css-L279" rel="file-style-css-L279">279</span>
+          <span class="line-number" id="file-style-css-L280" rel="file-style-css-L280">280</span>
+          <span class="line-number" id="file-style-css-L281" rel="file-style-css-L281">281</span>
+          <span class="line-number" id="file-style-css-L282" rel="file-style-css-L282">282</span>
+          <span class="line-number" id="file-style-css-L283" rel="file-style-css-L283">283</span>
+          <span class="line-number" id="file-style-css-L284" rel="file-style-css-L284">284</span>
+          <span class="line-number" id="file-style-css-L285" rel="file-style-css-L285">285</span>
+          <span class="line-number" id="file-style-css-L286" rel="file-style-css-L286">286</span>
+          <span class="line-number" id="file-style-css-L287" rel="file-style-css-L287">287</span>
+          <span class="line-number" id="file-style-css-L288" rel="file-style-css-L288">288</span>
+          <span class="line-number" id="file-style-css-L289" rel="file-style-css-L289">289</span>
+          <span class="line-number" id="file-style-css-L290" rel="file-style-css-L290">290</span>
+          <span class="line-number" id="file-style-css-L291" rel="file-style-css-L291">291</span>
+          <span class="line-number" id="file-style-css-L292" rel="file-style-css-L292">292</span>
+          <span class="line-number" id="file-style-css-L293" rel="file-style-css-L293">293</span>
+          <span class="line-number" id="file-style-css-L294" rel="file-style-css-L294">294</span>
+          <span class="line-number" id="file-style-css-L295" rel="file-style-css-L295">295</span>
+          <span class="line-number" id="file-style-css-L296" rel="file-style-css-L296">296</span>
+          <span class="line-number" id="file-style-css-L297" rel="file-style-css-L297">297</span>
+          <span class="line-number" id="file-style-css-L298" rel="file-style-css-L298">298</span>
+          <span class="line-number" id="file-style-css-L299" rel="file-style-css-L299">299</span>
+          <span class="line-number" id="file-style-css-L300" rel="file-style-css-L300">300</span>
+          <span class="line-number" id="file-style-css-L301" rel="file-style-css-L301">301</span>
+          <span class="line-number" id="file-style-css-L302" rel="file-style-css-L302">302</span>
+          <span class="line-number" id="file-style-css-L303" rel="file-style-css-L303">303</span>
+          <span class="line-number" id="file-style-css-L304" rel="file-style-css-L304">304</span>
+          <span class="line-number" id="file-style-css-L305" rel="file-style-css-L305">305</span>
+          <span class="line-number" id="file-style-css-L306" rel="file-style-css-L306">306</span>
+          <span class="line-number" id="file-style-css-L307" rel="file-style-css-L307">307</span>
+          <span class="line-number" id="file-style-css-L308" rel="file-style-css-L308">308</span>
+          <span class="line-number" id="file-style-css-L309" rel="file-style-css-L309">309</span>
+          <span class="line-number" id="file-style-css-L310" rel="file-style-css-L310">310</span>
+          <span class="line-number" id="file-style-css-L311" rel="file-style-css-L311">311</span>
+          <span class="line-number" id="file-style-css-L312" rel="file-style-css-L312">312</span>
+          <span class="line-number" id="file-style-css-L313" rel="file-style-css-L313">313</span>
+        </td>
+        <td class="line-data">
+          <pre class="line-pre"><div class="line" id="file-style-css-LC1"><span class="c">/*</span></div><div class="line" id="file-style-css-LC2"><span class="c">CSS</span></div><div class="line" id="file-style-css-LC3"><span class="c">*/</span></div><div class="line" id="file-style-css-LC4">&nbsp;</div><div class="line" id="file-style-css-LC5"><span class="nt">html</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC6">  <span class="k">background-color</span><span class="o">:</span> <span class="m">#E8DDCB</span><span class="p">;</span></div><div class="line" id="file-style-css-LC7"><span class="p">}</span></div><div class="line" id="file-style-css-LC8">&nbsp;</div><div class="line" id="file-style-css-LC9"><span class="nt">body</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC10">  <span class="k">margin</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC11">  <span class="k">padding</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC12">  <span class="k">font</span><span class="o">:</span> <span class="m">.625em</span> <span class="n">Georgia</span><span class="o">,</span> <span class="n">Serif</span><span class="p">;</span></div><div class="line" id="file-style-css-LC13">  <span class="k">background-color</span><span class="o">:</span> <span class="m">#E8DDCB</span><span class="p">;</span></div><div class="line" id="file-style-css-LC14">  <span class="k">color</span><span class="o">:</span> <span class="m">#363636</span><span class="p">;</span></div><div class="line" id="file-style-css-LC15"><span class="p">}</span></div><div class="line" id="file-style-css-LC16">&nbsp;</div><div class="line" id="file-style-css-LC17"><span class="nf">#page</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC18">  <span class="k">margin</span><span class="o">:</span> <span class="m">0</span> <span class="k">auto</span><span class="p">;</span></div><div class="line" id="file-style-css-LC19">  <span class="k">padding</span><span class="o">:</span> <span class="m">20px</span> <span class="m">0</span> <span class="m">0</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC20">  <span class="k">width</span><span class="o">:</span> <span class="m">800px</span><span class="p">;</span></div><div class="line" id="file-style-css-LC21">  <span class="k">font-size</span><span class="o">:</span> <span class="m">1.2em</span><span class="p">;</span></div><div class="line" id="file-style-css-LC22"><span class="p">}</span></div><div class="line" id="file-style-css-LC23">&nbsp;</div><div class="line" id="file-style-css-LC24"><span class="c">/*</span></div><div class="line" id="file-style-css-LC25"><span class="c">General</span></div><div class="line" id="file-style-css-LC26"><span class="c">*/</span></div><div class="line" id="file-style-css-LC27">&nbsp;</div><div class="line" id="file-style-css-LC28"><span class="nt">p</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC29">	<span class="k">margin</span><span class="o">:</span> <span class="m">1.4em</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC30">	<span class="k">padding</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC31">	<span class="k">line-height</span><span class="o">:</span> <span class="m">1.4em</span><span class="p">;</span></div><div class="line" id="file-style-css-LC32"><span class="p">}</span></div><div class="line" id="file-style-css-LC33">&nbsp;</div><div class="line" id="file-style-css-LC34"><span class="nt">img</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC35">	<span class="k">border</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC36"><span class="p">}</span></div><div class="line" id="file-style-css-LC37">&nbsp;</div><div class="line" id="file-style-css-LC38"><span class="nt">hr</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC39">	<span class="k">display</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span></div><div class="line" id="file-style-css-LC40"><span class="p">}</span></div><div class="line" id="file-style-css-LC41">&nbsp;</div><div class="line" id="file-style-css-LC42"><span class="nt">a</span><span class="o">,</span></div><div class="line" id="file-style-css-LC43"><span class="nt">a</span><span class="nd">:link</span><span class="o">,</span></div><div class="line" id="file-style-css-LC44"><span class="nt">a</span><span class="nd">:active</span><span class="o">,</span></div><div class="line" id="file-style-css-LC45"><span class="nt">a</span><span class="nd">:visited</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC46">	<span class="k">color</span><span class="o">:</span> <span class="m">#033649</span><span class="p">;</span></div><div class="line" id="file-style-css-LC47">	<span class="k">text-decoration</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span></div><div class="line" id="file-style-css-LC48">	<span class="k">border-bottom</span><span class="o">:</span> <span class="m">1px</span> <span class="k">dotted</span> <span class="m">#033649</span><span class="p">;</span></div><div class="line" id="file-style-css-LC49"><span class="p">}</span></div><div class="line" id="file-style-css-LC50">&nbsp;</div><div class="line" id="file-style-css-LC51"><span class="nt">a</span><span class="nd">:hover</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC52">	<span class="k">border-bottom</span><span class="o">:</span> <span class="m">1px</span> <span class="k">solid</span> <span class="m">#033649</span><span class="p">;</span></div><div class="line" id="file-style-css-LC53"><span class="p">}</span></div><div class="line" id="file-style-css-LC54">&nbsp;</div><div class="line" id="file-style-css-LC55"><span class="nt">blockquote</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC56">  <span class="k">margin</span><span class="o">:</span> <span class="k">auto</span><span class="p">;</span></div><div class="line" id="file-style-css-LC57">  <span class="k">padding</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC58">  <span class="k">width</span><span class="o">:</span> <span class="m">520px</span><span class="p">;</span></div><div class="line" id="file-style-css-LC59">  <span class="k">background</span><span class="o">:</span> <span class="k">transparent</span> <span class="sx">url(../images/quote-left.gif)</span> <span class="k">no-repeat</span> <span class="m">0</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC60">  <span class="k">text-align</span><span class="o">:</span> <span class="k">center</span><span class="p">;</span></div><div class="line" id="file-style-css-LC61">  <span class="k">color</span><span class="o">:</span> <span class="m">#033649</span><span class="p">;</span></div><div class="line" id="file-style-css-LC62">  <span class="k">font-size</span><span class="o">:</span> <span class="m">2em</span><span class="p">;</span></div><div class="line" id="file-style-css-LC63">  <span class="k">font-style</span><span class="o">:</span> <span class="k">italic</span><span class="p">;</span></div><div class="line" id="file-style-css-LC64"><span class="p">}</span></div><div class="line" id="file-style-css-LC65">&nbsp;</div><div class="line" id="file-style-css-LC66"><span class="nt">blockquote</span> <span class="nt">p</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC67">	<span class="k">line-height</span><span class="o">:</span> <span class="m">2em</span><span class="p">;</span></div><div class="line" id="file-style-css-LC68">	<span class="k">background</span><span class="o">:</span> <span class="k">transparent</span> <span class="sx">url(../images/quote-right.gif)</span> <span class="k">no-repeat</span> <span class="k">bottom</span> <span class="k">right</span><span class="p">;</span></div><div class="line" id="file-style-css-LC69"><span class="p">}</span></div><div class="line" id="file-style-css-LC70">&nbsp;</div><div class="line" id="file-style-css-LC71"><span class="c">/*</span></div><div class="line" id="file-style-css-LC72"><span class="c">Headers</span></div><div class="line" id="file-style-css-LC73"><span class="c">*/</span></div><div class="line" id="file-style-css-LC74">&nbsp;</div><div class="line" id="file-style-css-LC75"><span class="nt">h1</span><span class="o">,</span></div><div class="line" id="file-style-css-LC76"><span class="nt">h2</span><span class="o">,</span></div><div class="line" id="file-style-css-LC77"><span class="nt">h3</span><span class="o">,</span></div><div class="line" id="file-style-css-LC78"><span class="nt">h4</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC79">	<span class="k">line-height</span><span class="o">:</span> <span class="m">1</span><span class="o">.</span><span class="m">286</span><span class="p">;</span></div><div class="line" id="file-style-css-LC80">	<span class="k">margin</span><span class="o">:</span> <span class="m">.4em</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC81">	<span class="k">padding</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC82">	<span class="k">text-shadow</span><span class="o">:</span> <span class="m">1px</span> <span class="m">1px</span> <span class="m">0</span> <span class="m">#fff</span><span class="p">;</span></div><div class="line" id="file-style-css-LC83"><span class="p">}</span></div><div class="line" id="file-style-css-LC84">&nbsp;</div><div class="line" id="file-style-css-LC85"><span class="nt">h1</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC86">	<span class="k">font-weight</span><span class="o">:</span> <span class="k">normal</span><span class="p">;</span></div><div class="line" id="file-style-css-LC87">	<span class="k">font-size</span><span class="o">:</span> <span class="m">2.2em</span><span class="p">;</span></div><div class="line" id="file-style-css-LC88">	<span class="k">text-align</span><span class="o">:</span> <span class="k">center</span><span class="p">;</span></div><div class="line" id="file-style-css-LC89">	<span class="k">color</span><span class="o">:</span> <span class="m">#031634</span><span class="p">;</span></div><div class="line" id="file-style-css-LC90"><span class="p">}</span></div><div class="line" id="file-style-css-LC91">&nbsp;</div><div class="line" id="file-style-css-LC92"><span class="nt">h2</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC93">	<span class="k">margin</span><span class="o">:</span> <span class="m">.643em</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC94">	<span class="k">font-weight</span><span class="o">:</span> <span class="k">normal</span><span class="p">;</span></div><div class="line" id="file-style-css-LC95">	<span class="k">font-size</span><span class="o">:</span> <span class="m">1.8em</span><span class="p">;</span></div><div class="line" id="file-style-css-LC96">	<span class="k">color</span><span class="o">:</span> <span class="m">#033649</span><span class="p">;</span></div><div class="line" id="file-style-css-LC97">	<span class="k">font-style</span><span class="o">:</span> <span class="k">italic</span><span class="p">;</span></div><div class="line" id="file-style-css-LC98">	<span class="k">clear</span><span class="o">:</span> <span class="k">both</span><span class="p">;</span></div><div class="line" id="file-style-css-LC99"><span class="p">}</span></div><div class="line" id="file-style-css-LC100">&nbsp;</div><div class="line" id="file-style-css-LC101"><span class="nt">h3</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC102">	<span class="k">margin</span><span class="o">:</span> <span class="m">.643em</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC103">	<span class="k">font-weight</span><span class="o">:</span> <span class="k">normal</span><span class="p">;</span></div><div class="line" id="file-style-css-LC104">	<span class="k">font-size</span><span class="o">:</span> <span class="m">1.6em</span><span class="p">;</span></div><div class="line" id="file-style-css-LC105">	<span class="k">color</span><span class="o">:</span> <span class="m">#036564</span><span class="p">;</span></div><div class="line" id="file-style-css-LC106"><span class="p">}</span></div><div class="line" id="file-style-css-LC107">&nbsp;</div><div class="line" id="file-style-css-LC108"><span class="nt">h4</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC109">	<span class="k">margin</span><span class="o">:</span> <span class="m">.643em</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC110">	<span class="k">font-weight</span><span class="o">:</span> <span class="k">normal</span><span class="p">;</span></div><div class="line" id="file-style-css-LC111">	<span class="k">font-size</span><span class="o">:</span> <span class="m">1.4em</span><span class="p">;</span></div><div class="line" id="file-style-css-LC112">	<span class="k">color</span><span class="o">:</span> <span class="m">#036564</span><span class="p">;</span></div><div class="line" id="file-style-css-LC113"><span class="p">}</span></div><div class="line" id="file-style-css-LC114">&nbsp;</div><div class="line" id="file-style-css-LC115"><span class="nt">h1</span><span class="nf">#about</span><span class="o">,</span></div><div class="line" id="file-style-css-LC116"><span class="nt">h2</span><span class="nf">#badge-subtitle</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC117">  <span class="k">margin</span><span class="o">:</span> <span class="m">1em</span> <span class="m">0</span> <span class="m">.4em</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC118">  <span class="k">font-size</span><span class="o">:</span> <span class="m">1.3em</span><span class="p">;</span></div><div class="line" id="file-style-css-LC119">  <span class="k">color</span><span class="o">:</span> <span class="m">#363636</span><span class="p">;</span></div><div class="line" id="file-style-css-LC120"><span class="p">}</span></div><div class="line" id="file-style-css-LC121">&nbsp;</div><div class="line" id="file-style-css-LC122"><span class="nt">h2</span><span class="nf">#badge-subtitle</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC123">  <span class="k">text-align</span><span class="o">:</span> <span class="k">center</span><span class="p">;</span></div><div class="line" id="file-style-css-LC124"><span class="p">}</span></div><div class="line" id="file-style-css-LC125">&nbsp;</div><div class="line" id="file-style-css-LC126"><span class="c">/*</span></div><div class="line" id="file-style-css-LC127"><span class="c">Header</span></div><div class="line" id="file-style-css-LC128"><span class="c">*/</span></div><div class="line" id="file-style-css-LC129">&nbsp;</div><div class="line" id="file-style-css-LC130"><span class="nf">#header</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC131">  <span class="k">border-bottom</span><span class="o">:</span> <span class="m">1px</span> <span class="k">dotted</span> <span class="m">#CDB380</span><span class="p">;</span></div><div class="line" id="file-style-css-LC132"><span class="p">}</span></div><div class="line" id="file-style-css-LC133">&nbsp;</div><div class="line" id="file-style-css-LC134"><span class="nf">#header</span> <span class="nf">#logo</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC135">  <span class="k">margin</span><span class="o">:</span> <span class="k">auto</span><span class="p">;</span></div><div class="line" id="file-style-css-LC136">  <span class="k">width</span><span class="o">:</span> <span class="m">300px</span><span class="p">;</span></div><div class="line" id="file-style-css-LC137">  <span class="k">height</span><span class="o">:</span> <span class="m">215px</span><span class="p">;</span></div><div class="line" id="file-style-css-LC138">  <span class="k">background</span><span class="o">:</span> <span class="k">transparent</span> <span class="sx">url(../images/logo-small-acts.png)</span> <span class="k">no-repeat</span> <span class="m">0</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC139">  <span class="k">text-indent</span><span class="o">:</span> <span class="m">-9999px</span><span class="p">;</span></div><div class="line" id="file-style-css-LC140"><span class="p">}</span></div><div class="line" id="file-style-css-LC141">&nbsp;</div><div class="line" id="file-style-css-LC142"><span class="nf">#header</span> <span class="nf">#logo</span> <span class="nt">a</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC143">  <span class="k">display</span><span class="o">:</span> <span class="k">block</span><span class="p">;</span></div><div class="line" id="file-style-css-LC144">  <span class="k">width</span><span class="o">:</span> <span class="m">300px</span><span class="p">;</span></div><div class="line" id="file-style-css-LC145">  <span class="k">height</span><span class="o">:</span> <span class="m">215px</span><span class="p">;</span></div><div class="line" id="file-style-css-LC146">  <span class="k">border</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span></div><div class="line" id="file-style-css-LC147"><span class="p">}</span></div><div class="line" id="file-style-css-LC148">&nbsp;</div><div class="line" id="file-style-css-LC149"><span class="nf">#header</span> <span class="nt">blockquote</span> <span class="nt">p</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC150">  <span class="k">text-shadow</span><span class="o">:</span> <span class="m">1px</span> <span class="m">1px</span> <span class="m">0</span> <span class="m">#fff</span><span class="p">;</span></div><div class="line" id="file-style-css-LC151"><span class="p">}</span></div><div class="line" id="file-style-css-LC152">&nbsp;</div><div class="line" id="file-style-css-LC153"><span class="c">/*</span></div><div class="line" id="file-style-css-LC154"><span class="c">Content</span></div><div class="line" id="file-style-css-LC155"><span class="c">*/</span></div><div class="line" id="file-style-css-LC156">&nbsp;</div><div class="line" id="file-style-css-LC157"><span class="nf">#content</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC158">  <span class="k">margin</span><span class="o">:</span> <span class="m">0</span> <span class="m">20px</span><span class="p">;</span></div><div class="line" id="file-style-css-LC159">  <span class="k">font-size</span><span class="o">:</span> <span class="m">1.4em</span><span class="p">;</span></div><div class="line" id="file-style-css-LC160">  <span class="k">text-shadow</span><span class="o">:</span> <span class="m">1px</span> <span class="m">1px</span> <span class="m">0</span> <span class="m">#fff</span><span class="p">;</span></div><div class="line" id="file-style-css-LC161"><span class="p">}</span></div><div class="line" id="file-style-css-LC162">&nbsp;</div><div class="line" id="file-style-css-LC163"><span class="nt">ul</span><span class="nf">#acts</span> <span class="nt">li</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC164">  <span class="k">line-height</span><span class="o">:</span> <span class="m">1.4em</span><span class="p">;</span></div><div class="line" id="file-style-css-LC165"><span class="p">}</span></div><div class="line" id="file-style-css-LC166">&nbsp;</div><div class="line" id="file-style-css-LC167"><span class="nt">ul</span><span class="nf">#members</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC168">	<span class="k">list-style-type</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span></div><div class="line" id="file-style-css-LC169">	<span class="k">margin</span><span class="o">:</span> <span class="m">0</span> <span class="m">0</span> <span class="m">20px</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC170">	<span class="k">padding</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC171">	<span class="k">font-size</span><span class="o">:</span> <span class="m">.76em</span><span class="p">;</span></div><div class="line" id="file-style-css-LC172"><span class="p">}</span></div><div class="line" id="file-style-css-LC173">&nbsp;</div><div class="line" id="file-style-css-LC174"><span class="nt">ul</span><span class="nf">#members</span> <span class="nt">li</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC175">	<span class="k">width</span><span class="o">:</span> <span class="m">252px</span><span class="p">;</span></div><div class="line" id="file-style-css-LC176">	<span class="k">line-height</span><span class="o">:</span> <span class="m">2em</span><span class="p">;</span></div><div class="line" id="file-style-css-LC177">	<span class="k">text-align</span><span class="o">:</span> <span class="k">center</span><span class="p">;</span></div><div class="line" id="file-style-css-LC178">	<span class="k">float</span><span class="o">:</span> <span class="k">left</span><span class="p">;</span></div><div class="line" id="file-style-css-LC179"><span class="p">}</span></div><div class="line" id="file-style-css-LC180">&nbsp;</div><div class="line" id="file-style-css-LC181"><span class="nf">#badge-content</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC182">  <span class="k">font-size</span><span class="o">:</span> <span class="m">.8em</span><span class="p">;</span></div><div class="line" id="file-style-css-LC183">  <span class="k">margin</span><span class="o">:</span> <span class="m">0</span> <span class="m">0</span> <span class="m">20px</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC184"><span class="p">}</span></div><div class="line" id="file-style-css-LC185">&nbsp;</div><div class="line" id="file-style-css-LC186"><span class="nf">#badge-content</span> <span class="nt">p</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC187">  <span class="k">margin</span><span class="o">:</span> <span class="m">1em</span> <span class="m">0</span> <span class="m">0</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC188"><span class="p">}</span></div><div class="line" id="file-style-css-LC189">&nbsp;</div><div class="line" id="file-style-css-LC190"><span class="nf">#badge-content</span> <span class="nt">a</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC191">  <span class="k">border</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span></div><div class="line" id="file-style-css-LC192"><span class="p">}</span></div><div class="line" id="file-style-css-LC193">&nbsp;</div><div class="line" id="file-style-css-LC194"><span class="nf">#badge-content</span> <span class="nt">textarea</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC195">  <span class="k">margin</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC196">  <span class="k">padding</span><span class="o">:</span> <span class="m">10px</span><span class="p">;</span></div><div class="line" id="file-style-css-LC197">  <span class="k">display</span><span class="o">:</span> <span class="k">block</span><span class="p">;</span></div><div class="line" id="file-style-css-LC198">  <span class="k">width</span><span class="o">:</span> <span class="m">650px</span><span class="p">;</span></div><div class="line" id="file-style-css-LC199">  <span class="k">height</span><span class="o">:</span> <span class="m">50px</span><span class="p">;</span></div><div class="line" id="file-style-css-LC200">  <span class="k">border</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span></div><div class="line" id="file-style-css-LC201">  <span class="k">border-top</span><span class="o">:</span> <span class="m">1px</span> <span class="k">solid</span> <span class="m">#036564</span><span class="p">;</span></div><div class="line" id="file-style-css-LC202">  <span class="k">border-bottom</span><span class="o">:</span> <span class="m">1px</span> <span class="k">solid</span> <span class="m">#036564</span><span class="p">;</span></div><div class="line" id="file-style-css-LC203">  <span class="k">color</span><span class="o">:</span> <span class="m">#031634</span><span class="p">;</span></div><div class="line" id="file-style-css-LC204">  <span class="k">background-color</span><span class="o">:</span> <span class="m">#fff</span><span class="p">;</span></div><div class="line" id="file-style-css-LC205"><span class="p">}</span></div><div class="line" id="file-style-css-LC206">&nbsp;</div><div class="line" id="file-style-css-LC207"><span class="c">/*</span></div><div class="line" id="file-style-css-LC208"><span class="c">Forms</span></div><div class="line" id="file-style-css-LC209"><span class="c">*/</span></div><div class="line" id="file-style-css-LC210">&nbsp;</div><div class="line" id="file-style-css-LC211"><span class="nt">form</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC212">  <span class="k">margin</span><span class="o">:</span> <span class="m">20px</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC213">  <span class="k">padding</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC214"><span class="p">}</span></div><div class="line" id="file-style-css-LC215">&nbsp;</div><div class="line" id="file-style-css-LC216"><span class="nt">fieldset</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC217">  <span class="k">margin</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC218">  <span class="k">padding</span><span class="o">:</span> <span class="m">20px</span><span class="p">;</span></div><div class="line" id="file-style-css-LC219"><span class="p">}</span></div><div class="line" id="file-style-css-LC220">&nbsp;</div><div class="line" id="file-style-css-LC221"><span class="nt">form</span> <span class="nt">div</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC222">  <span class="k">padding</span><span class="o">:</span> <span class="m">0</span> <span class="m">0</span> <span class="m">5px</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC223"><span class="p">}</span></div><div class="line" id="file-style-css-LC224">&nbsp;</div><div class="line" id="file-style-css-LC225"><span class="nt">form</span> <span class="nt">input</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC226">  <span class="k">font-size</span><span class="o">:</span> <span class="m">1.1em</span><span class="p">;</span></div><div class="line" id="file-style-css-LC227">  <span class="k">padding</span><span class="o">:</span> <span class="m">2px</span><span class="p">;</span></div><div class="line" id="file-style-css-LC228">  <span class="k">display</span><span class="o">:</span> <span class="k">block</span><span class="p">;</span></div><div class="line" id="file-style-css-LC229">  <span class="k">width</span><span class="o">:</span> <span class="m">400px</span><span class="p">;</span></div><div class="line" id="file-style-css-LC230"><span class="p">}</span></div><div class="line" id="file-style-css-LC231">&nbsp;</div><div class="line" id="file-style-css-LC232"><span class="nc">.error</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC233">  <span class="k">color</span><span class="o">:</span> <span class="m">#900</span><span class="p">;</span></div><div class="line" id="file-style-css-LC234"><span class="p">}</span></div><div class="line" id="file-style-css-LC235">&nbsp;</div><div class="line" id="file-style-css-LC236"><span class="nt">form</span> <span class="nt">p</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC237">  <span class="c">/*margin: -35px 0 0 440px;*/</span></div><div class="line" id="file-style-css-LC238">  <span class="k">padding</span><span class="o">:</span> <span class="m">8px</span><span class="p">;</span></div><div class="line" id="file-style-css-LC239">  <span class="k">width</span><span class="o">:</span> <span class="m">300px</span><span class="p">;</span></div><div class="line" id="file-style-css-LC240">  <span class="c">/*position: absolute;*/</span></div><div class="line" id="file-style-css-LC241">  <span class="c">/*border: 1px solid #033649;*/</span></div><div class="line" id="file-style-css-LC242">  <span class="c">/*background-color: #036564;*/</span></div><div class="line" id="file-style-css-LC243">  <span class="c">/*color: #fff;*/</span></div><div class="line" id="file-style-css-LC244">  <span class="c">/*font-size: .9em;*/</span></div><div class="line" id="file-style-css-LC245">  <span class="k">font-family</span><span class="o">:</span> <span class="n">Arial</span><span class="o">,</span> <span class="n">Helvetica</span><span class="o">,</span> <span class="n">Sans</span><span class="o">-</span><span class="n">Serif</span><span class="p">;</span></div><div class="line" id="file-style-css-LC246"><span class="p">}</span></div><div class="line" id="file-style-css-LC247">&nbsp;</div><div class="line" id="file-style-css-LC248"><span class="nt">form</span> <span class="nt">p</span> <span class="nt">em</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC249">  <span class="c">/*font-size: 1.2em;*/</span></div><div class="line" id="file-style-css-LC250">  <span class="c">/*display: block;*/</span></div><div class="line" id="file-style-css-LC251"><span class="p">}</span></div><div class="line" id="file-style-css-LC252">&nbsp;</div><div class="line" id="file-style-css-LC253"><span class="nc">.info_label</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC254">  <span class="k">display</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span></div><div class="line" id="file-style-css-LC255">  <span class="k">text-shadow</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span></div><div class="line" id="file-style-css-LC256"><span class="p">}</span></div><div class="line" id="file-style-css-LC257">&nbsp;</div><div class="line" id="file-style-css-LC258"><span class="nc">.button</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC259">  <span class="k">width</span><span class="o">:</span> <span class="m">200px</span><span class="p">;</span></div><div class="line" id="file-style-css-LC260">  <span class="k">text-align</span><span class="o">:</span> <span class="k">center</span><span class="p">;</span></div><div class="line" id="file-style-css-LC261">  <span class="k">padding</span><span class="o">:</span> <span class="m">4px</span><span class="p">;</span></div><div class="line" id="file-style-css-LC262">  <span class="k">font-size</span><span class="o">:</span> <span class="m">1.1em</span><span class="p">;</span></div><div class="line" id="file-style-css-LC263">  <span class="k">background-color</span><span class="o">:</span> <span class="m">#031634</span><span class="p">;</span></div><div class="line" id="file-style-css-LC264">  <span class="k">color</span><span class="o">:</span> <span class="m">#fff</span><span class="p">;</span></div><div class="line" id="file-style-css-LC265">  <span class="k">border</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span></div><div class="line" id="file-style-css-LC266">  <span class="k">text-shadow</span><span class="o">:</span> <span class="m">-1px</span> <span class="m">-1px</span> <span class="m">0</span> <span class="m">#000</span><span class="p">;</span></div><div class="line" id="file-style-css-LC267"><span class="p">}</span></div><div class="line" id="file-style-css-LC268">&nbsp;</div><div class="line" id="file-style-css-LC269"><span class="c">/*</span></div><div class="line" id="file-style-css-LC270"><span class="c">Footer</span></div><div class="line" id="file-style-css-LC271"><span class="c">*/</span></div><div class="line" id="file-style-css-LC272">&nbsp;</div><div class="line" id="file-style-css-LC273"><span class="nf">#footer</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC274">  <span class="k">clear</span><span class="o">:</span> <span class="k">both</span><span class="p">;</span></div><div class="line" id="file-style-css-LC275">  <span class="k">font-size</span><span class="o">:</span> <span class="m">.9em</span><span class="p">;</span></div><div class="line" id="file-style-css-LC276">  <span class="k">padding</span><span class="o">:</span> <span class="m">0</span> <span class="m">20px</span><span class="p">;</span></div><div class="line" id="file-style-css-LC277">  <span class="k">border-top</span><span class="o">:</span> <span class="m">1px</span> <span class="k">dotted</span> <span class="m">#CDB380</span><span class="p">;</span></div><div class="line" id="file-style-css-LC278"><span class="p">}</span></div><div class="line" id="file-style-css-LC279">&nbsp;</div><div class="line" id="file-style-css-LC280"><span class="nf">#footer</span> <span class="nt">img</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC281">  <span class="k">vertical-align</span><span class="o">:</span> <span class="k">middle</span><span class="p">;</span></div><div class="line" id="file-style-css-LC282"><span class="p">}</span></div><div class="line" id="file-style-css-LC283">&nbsp;</div><div class="line" id="file-style-css-LC284"><span class="nf">#footer</span> <span class="nf">#django</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC285">  <span class="k">float</span><span class="o">:</span> <span class="k">right</span><span class="p">;</span></div><div class="line" id="file-style-css-LC286">  <span class="k">border</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span></div><div class="line" id="file-style-css-LC287"><span class="p">}</span></div><div class="line" id="file-style-css-LC288">&nbsp;</div><div class="line" id="file-style-css-LC289"><span class="c">/*</span></div><div class="line" id="file-style-css-LC290"><span class="c">Clearfix</span></div><div class="line" id="file-style-css-LC291"><span class="c">*/</span></div><div class="line" id="file-style-css-LC292">&nbsp;</div><div class="line" id="file-style-css-LC293"><span class="nc">.clearfix</span><span class="nd">:after</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC294">    <span class="k">content</span><span class="o">:</span> <span class="s2">&quot;.&quot;</span><span class="p">;</span></div><div class="line" id="file-style-css-LC295">    <span class="k">display</span><span class="o">:</span> <span class="k">block</span><span class="p">;</span></div><div class="line" id="file-style-css-LC296">    <span class="k">height</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span></div><div class="line" id="file-style-css-LC297">    <span class="k">clear</span><span class="o">:</span> <span class="k">both</span><span class="p">;</span></div><div class="line" id="file-style-css-LC298">    <span class="k">visibility</span><span class="o">:</span> <span class="k">hidden</span><span class="p">;</span></div><div class="line" id="file-style-css-LC299"><span class="p">}</span></div><div class="line" id="file-style-css-LC300">&nbsp;</div><div class="line" id="file-style-css-LC301"><span class="nc">.clearfix</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC302">	<span class="k">display</span><span class="o">:</span> <span class="k">inline-table</span><span class="p">;</span></div><div class="line" id="file-style-css-LC303"><span class="p">}</span></div><div class="line" id="file-style-css-LC304">&nbsp;</div><div class="line" id="file-style-css-LC305"><span class="c">/* Hides from IE-mac \*/</span></div><div class="line" id="file-style-css-LC306"><span class="nc">.clearfix</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC307">	<span class="k">height</span><span class="o">:</span> <span class="m">1</span><span class="o">%</span><span class="p">;</span></div><div class="line" id="file-style-css-LC308"><span class="p">}</span></div><div class="line" id="file-style-css-LC309">&nbsp;</div><div class="line" id="file-style-css-LC310"><span class="nc">.clearfix</span> <span class="p">{</span></div><div class="line" id="file-style-css-LC311">	<span class="k">display</span><span class="o">:</span> <span class="k">block</span><span class="p">;</span></div><div class="line" id="file-style-css-LC312"><span class="p">}</span></div><div class="line" id="file-style-css-LC313"><span class="c">/* End hide from IE-mac */</span></div></pre>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+          </div>
+        </div>
+    <div id="comments" class="new-comments">
+      
+    </div>
+      <p class="uncommentable"><span class="mini-icon mini-icon-exclamation"></span> Please <a href="/login?return_to=/henriquebastos/3766690" rel="nofollow">sign in</a> to comment on this gist.</p>
+  </div>
+</div>
+
+  <div class="context-overlay"></div>
+</div>
+
+    </div>
+    <div class="slow-loading-overlay"></div>
+  </div>
+
+  <div id="ajax-error-message" class="flash flash-error">
+    <div class="container">
+      <span class="mini-icon mini-icon-exclamation"></span>
+      Something went wrong with that request. Please try again.
+      <a href="#" class="mini-icon mini-icon-remove-close ajax-error-dismiss"></a>
+    </div>
+  </div>
+
+  <footer>
+    <div id="footer">
+  <div class="container clearfix">
+
+    <p class="right">&copy; 2013 GitHub Inc. All rights reserved.</p>
+    <a class="left" href="/">
+      <span class="mega-icon mega-icon-invertocat"></span>
+    </a>
+    <ul id="legal">
+      <li><a href="http://github.com/blog">The GitHub Blog</a></li>
+      <li><a href="mailto:support@github.com">Support</a></li>
+      <li><a href="https://github.com/contact">Contact</a></li>
+    </ul>
+
+  </div><!-- /.container -->
+</div><!-- /.#footer -->
+
+  </footer>
+
+</body>
+</html>
