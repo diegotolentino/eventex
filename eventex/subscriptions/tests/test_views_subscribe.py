@@ -1,12 +1,13 @@
 # encoding: utf-8
 
+from django.core.urlresolvers import reverse as r
 from django.test import TestCase
 from eventex.subscriptions.forms import SubscriptionForm
 from eventex.subscriptions.models import Subscription
 
 class SubscribeTest(TestCase):
     def setUp(self):
-        self.resp = self.client.get('/inscricao/')
+        self.resp = self.client.get(r('subscriptions:subscribe'))
 
     def test_get(self):
         'testando se o status code da resposta é o correto'
@@ -40,7 +41,7 @@ class SubscribePostTest(TestCase):
            email='diego@teste.com',
            phone='62-39201997',
            )
-        self.resp = self.client.post('/inscricao/', data);
+        self.resp = self.client.post(r('subscriptions:subscribe'), data);
 
     def test_post(self):
         'testando se o post redireciona p/ /inscricao/1/'
@@ -59,7 +60,7 @@ class SubscribeInvalidPostTest(TestCase):
            email='diego@teste.com',
            phone='62-39201997',
            )
-        self.resp = self.client.post('/inscricao/', data);
+        self.resp = self.client.post(r('subscriptions:subscribe'), data);
 
     def test_post(self):
         'testando se o post não redireciona p/ "/inscricao/1/" e sim p/ "/inscricao/"'
