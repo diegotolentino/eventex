@@ -19,6 +19,11 @@ DATABASES = {
         default='sqlite:///' + PROJECT_DIR.child('database.db'))
 }
 
+# Usar o South para preparar o banco nos testes?
+# True: Sim. (default)
+# False: Não! Use o Syncdb
+SOUTH_TESTS_MIGRATE = False
+
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
 ALLOWED_HOSTS = ['.localhost', '127.0.0.1', '.herokuapp.com']
