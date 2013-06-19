@@ -32,15 +32,15 @@ class SubcriptionTest(TestCase):
            )
         self.assertRaises(IntegrityError, s.save)
 
-    def test_email_unique(self):
-        'email unico'
-        s=Subscription(
+    def test_email_can_repeat(self):
+        'email pode se repetir'
+        s=Subscription.objects.create(
            name='Diego',
            cpf='11111111111',
            email='diego@teste.com',
            phone='62-39201997',
            )
-        self.assertRaises(IntegrityError, s.save)
+        self.assertEqual(2, s.pk)
         
     def test_unicode(self):
         self.assertEqual(u'Diego', unicode(self.obj))
